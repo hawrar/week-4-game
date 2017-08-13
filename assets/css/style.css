@@ -1,0 +1,72 @@
+/* Body Details*/
+body{
+	background-image: url("../images/Outtabody.jpg")
+}
+div{
+	background-color: white;
+	margin: 10px;
+	width: 25%
+}
+div{
+	border: solid 2px antiquewhite;
+	padding: 10px;
+}
+h1, h3, span{
+	font-weight: bold;
+	text-align: center;
+}
+h1{
+	font-size: 30pt;
+}
+ol{
+	list-style: decimal inside; 
+}
+ul {
+	list-style: disc inside;
+	text-indent: 20px;
+}
+/*Div details*/
+
+
+div.header{
+	background-color: #dff210;
+}
+
+div.gems{
+	background-color: #e0e0eb;
+}
+div.header, div.instructions{
+	width: 100%;
+}
+/* Classes Details*/
+
+.numberToMatch, .winsAndLosses{
+	float: left;
+	width: 15%;
+	height: 60px;
+}
+.userTotal{
+	width: 15%;
+	height: 60px;
+}
+.gems{
+	clear: both;
+}
+.stone{
+	height: 60px;
+	margin: 10px;
+}
+/* ID Details */
+
+#blue{
+	color: #3092c7;
+}
+#green{
+	color: #00aa59;
+}
+#red{
+	color: #ec4b5f;
+}
+#yellow{
+	color: #ffc225;
+}
